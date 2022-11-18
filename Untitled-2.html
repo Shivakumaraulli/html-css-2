@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop.jpg</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .inner-container1{
+            display: grid;
+            
+            margin-right: 30px;
+        }
+        .flex-item{
+            width: 320px;
+            height: 70px;
+            background-color: #FF5733;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            justify-content: space-between;
+            text-align: center;
+            align-self: center;
+            justify-items: baseline;
+            float: left;
+            
+        }
+        #flex-item1{
+            width: 100px;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            
+        }
+        #flex-item2{
+            width: 100px;
+            grid-column-start: 3;
+            grid-column-end: 5;
+        }
+        #flex-item3{
+            width: 50px;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        #flex-item4{
+            width: 150px;
+            grid-start: 2;
+            grid-end: 5;
+        }
+        #flex-item5{
+            width: 200px;
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        .inner-container2{
+            justify-content: flex-end;
+            height: 200px;
+            width: 400px;
+            border-radius: 5px;
+            background-color: white;  
+            float: right;      
+        }
+        .inner-container3{
+            height: 200px;
+            width: 400px;
+            justify-content:  center;
+            float: bottom;
+        }
+        #image{
+            height: 50px;
+            width: 50px;
+            display: inline;
+        }
+        h1{
+            color: white;
+            font-weight: 500px;
+            text-align: center;
+            float: ;
+        }
+        p{
+            color: black;
+            border: 1px dotted black;
+        }
+        #image1{
+            width: 400px;
+            height: 200px;
+            justify-content: center;
+            align-items: center;
+            margin-right: 100px;
+        }
+        h5{
+            line-height: 15px;
+        }
+        
+        
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="inner-container1">
+            <div class="flex-item" id="flex-item1">A</div>
+            <div class="flex-item" id="flex-item2">B</div>
+            <div class="flex-item" id="flex-item3">C</div>
+            <div class="flex-item" id="flex-item4">D</div>
+            <div class="flex-item" id="flex-item5">E</div>
+        </div>
+        <div class="inner-container2">
+            <img id="image" src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/uzxxllgloialmn9mhwfe">
+            <h2 style="color: blue;">PrepBytes</h2>
+            <h5 style="color: rgb(224, 95, 9);">A CollegeDekho Company</h5>
+            <h2 style="color: rgb(224, 11, 47);">Educational Platform</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores tenetur iure reprehenderit delectus voluptatibus iusto eligendi placeat eius corrupti doloremque in est accusamus dicta maxime sapiente, voluptate temporibus magni! Quam eos mollitia libero!</p>
+        </div>
+        <h1>Hello World</h1>
+        <div class="inner-container3">
+            <img id="image1"src="https://cdn3.vectorstock.com/i/1000x1000/80/57/cartoon-school-kids-raising-hand-in-classroom-vector-22718057.jpg">
+        </div>
+    </div>
+</body>
+</html>
